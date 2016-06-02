@@ -11,7 +11,9 @@
             "TYPO3\\Form": "Classes"
         }
     },
-    "suggest": {
-        "typo3/swiftmailer": "The EmailFinisher needs this to be useable"
+    "extra": {
+        "applied-flow-migrations": [
+            "TYPO3.Form-20160601101500"
+        ]
     }
 }
