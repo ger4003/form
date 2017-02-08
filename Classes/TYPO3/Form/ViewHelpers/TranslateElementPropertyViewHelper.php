@@ -69,6 +69,6 @@ class TranslateElementPropertyViewHelper extends AbstractViewHelper
         } catch (ResourceException $exception) {
             return $defaultValue;
         }
-        return $translation === null ? $defaultValue : $translation;
+        return $translation === null || $translation === $translationId ? $defaultValue : $translation;
     }
 }
